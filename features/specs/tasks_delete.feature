@@ -15,7 +15,7 @@ Funcionalidade: Remover tarefa
         E esta tarefa deve ser removida da lista
 
     @auth @delete @logout @db
-    Cenario: Desisti da remoção
+    Cenario: Desisti da remocao
 
         Dado que eu seleciono uma tarefa
         Quando eu solicito a exclusão dessa tarefa

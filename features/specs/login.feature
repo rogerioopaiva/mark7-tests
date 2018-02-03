@@ -9,7 +9,7 @@ Funcionalidade: Login
         Dado que estou na página principal
 
     @login @logout @smoke
-    Cenario: Login do usuário
+    Cenario: Login do usuario
 
         Quando faço login com "eu@papito.io" e "secret"
         Então sou autenticado
