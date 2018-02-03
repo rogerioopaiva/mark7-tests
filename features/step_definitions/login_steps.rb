@@ -15,7 +15,7 @@ Então('sou autenticado') do
 end
 
 Então('vejo as minhas tarefas') do
-  expect(@tasks.page_title.text).to eql 'Tarefas'
+  expect(@tasks.page_title.text).to eql 'Tasks'
 end
 
 Então('devo ver a seguinte mensagem {string}') do |mensagem|
