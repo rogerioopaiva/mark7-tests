@@ -11,7 +11,7 @@ Quando('faço login com {string} e {string}') do |email, senha|
 end
 
 Então('sou autenticado') do
-  expect(@tasks.nav.user_menu).to have_content @email
+  expect(@tasks.nav.user_menu).to have_content 'Fernando'
 end
 
 Então('vejo as minhas tarefas') do
